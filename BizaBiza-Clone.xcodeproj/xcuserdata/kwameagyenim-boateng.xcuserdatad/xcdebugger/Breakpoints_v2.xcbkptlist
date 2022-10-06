@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E6B77944-7A6D-429B-A2B4-87D0AE0C24DB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01B62983-2D59-4DC1-845A-B8BC168274D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BizaBiza-Clone/Cells/Home/WalletBalanceCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "image_bg3"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "01B62983-2D59-4DC1-845A-B8BC168274D7 - 76d9a886b6394dc6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BizaBiza_Clone.WalletBalanceCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; BizaBiza_Clone.WalletBalanceCell"
+                  moduleName = "BizaBiza-Clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kwameagyenim-boateng/Desktop/%23100DaysOfSwift/BizaBiza-Clone/BizaBiza-Clone/Cells/Home/WalletBalanceCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "549">
+               </Location>
+               <Location
+                  uuid = "01B62983-2D59-4DC1-845A-B8BC168274D7 - 9345096a04d3f405"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BizaBiza_Clone.WalletBalanceCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BizaBiza_Clone.WalletBalanceCell&gt;"
+                  moduleName = "BizaBiza-Clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kwameagyenim-boateng/Desktop/%23100DaysOfSwift/BizaBiza-Clone/BizaBiza-Clone/Cells/Home/WalletBalanceCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "550">
+               </Location>
+               <Location
+                  uuid = "01B62983-2D59-4DC1-845A-B8BC168274D7 - 2f710b848495abac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIImageView in variable initialization expression of BizaBiza_Clone.WalletBalanceCell.image_bg3 : __C.UIImageView"
+                  moduleName = "BizaBiza-Clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kwameagyenim-boateng/Desktop/%23100DaysOfSwift/BizaBiza-Clone/BizaBiza-Clone/Cells/Home/WalletBalanceCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "01B62983-2D59-4DC1-845A-B8BC168274D7 - bc4d992fe1034c92"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BizaBiza_Clone.WalletBalanceCell.image_bg3.getter : __C.UIImageView"
+                  moduleName = "BizaBiza-Clone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kwameagyenim-boateng/Desktop/%23100DaysOfSwift/BizaBiza-Clone/BizaBiza-Clone/Cells/Home/WalletBalanceCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
