@@ -14,4 +14,10 @@ The application was built using:
 * Programmatic UI
 
 # Screenshots 📸
-<img align='left' src="Assets.xcassets/one.imageset/one.png"  width="250"/>
+<img align='left' src="BizaBiza-Clone/Assets.xcassets/home.imageset/home.png"  width="250"/>
+<img  src="BizaBiza-Clone/Assets.xcassets/escrow.imageset/escrow.png"  width="250"/>
+
+<img align='left' src="BizaBiza-Clone/Assets.xcassets/payment.imageset/payment.png"  width="250"/>
+<img  src="BizaBiza-Clone/Assets.xcassets/shop.imageset/shop.png"  width="250"/>
+
+<img align='left' src="BizaBiza-Clone/Assets.xcassets/receive.imageset/receive.png"  width="250"/>
