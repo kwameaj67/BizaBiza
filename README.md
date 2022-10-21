@@ -11,6 +11,7 @@ The application was built using:
 
 ### Core Technologies 📲
 * Swift
+* UIKit
 * Programmatic UI
 
 # Screenshots 📸
