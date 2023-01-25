@@ -42,15 +42,6 @@ class RecentPaymentCell: UITableViewCell {
         lb.translatesAutoresizingMaskIntoConstraints = false
         return lb
     }()
-    let amountLabel: UILabel = {
-        let lb = UILabel()
-        lb.text = "GH₵ 300.00"
-        lb.textColor = Color.blue
-        lb.font = UIFont(name: Font.bold.rawValue, size: 15)
-        lb.numberOfLines = 0
-        lb.translatesAutoresizingMaskIntoConstraints = false
-        return lb
-    }()
     let eyeIcon : UIImageView = {
         var iv = UIImageView(frame: .zero)
         iv.image = UIImage(named: "eye")?.withRenderingMode(.alwaysOriginal)
@@ -73,10 +64,10 @@ class RecentPaymentCell: UITableViewCell {
         titleContainer.addArrangedSubview(titleLabel)
         titleContainer.addArrangedSubview(eyeIcon)
         
-        [messageIcon,paymentTextLabel,amountLabel].forEach {
+        [messageIcon,paymentTextLabel].forEach {
             contentView.addSubview($0)
         }
-        paymentTextLabel.attributedText = setupAttributedText("Send Biza","Bank transfer to OLADIPO VETA...")
+        paymentTextLabel.attributedText = setupAttributedText("Send Biza","Bank transfer to OLADIPO VETA...", amount: 300)
     }
     func setupConstraints(){
         NSLayoutConstraint.activate([
@@ -96,17 +87,15 @@ class RecentPaymentCell: UITableViewCell {
             
             paymentTextLabel.topAnchor.constraint(equalTo: titleContainer.bottomAnchor, constant: 30),
             paymentTextLabel.leadingAnchor.constraint(equalTo: messageIcon.trailingAnchor, constant: 20),
+            paymentTextLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
           
-            
-            amountLabel.topAnchor.constraint(equalTo: titleContainer.bottomAnchor, constant: 50),
-            amountLabel.leadingAnchor.constraint(equalTo: paymentTextLabel.trailingAnchor, constant: 10),
-            amountLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -30),
-            
+    
         ])
     }
-    func setupAttributedText(_ title: String, _ subTitle: String) -> NSAttributedString {
+    func setupAttributedText(_ title: String, _ subTitle: String,amount: Double) -> NSAttributedString {
         let text = NSMutableAttributedString(attributedString: NSAttributedString(string: "\(title)\n", attributes: [NSAttributedString.Key.foregroundColor: UIColor.black,NSAttributedString.Key.font: UIFont(name: Font.medium.rawValue, size: 16)!]))
         text.append(NSAttributedString(string: "\(subTitle)", attributes: [NSAttributedString.Key.foregroundColor:Color.grey,NSAttributedString.Key.font: UIFont(name: Font.medium.rawValue, size: 14)!]))
+        text.append(NSAttributedString(string: "GH₵ \(amount)", attributes: [NSAttributedString.Key.foregroundColor:Color.blue,NSAttributedString.Key.font: UIFont(name: Font.bold.rawValue, size: 15)!]))
         return text
     }
 }

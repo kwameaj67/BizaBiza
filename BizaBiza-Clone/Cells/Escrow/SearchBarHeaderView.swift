@@ -52,7 +52,7 @@ class SearchBarHeaderView: UITableViewHeaderFooterView {
             
             searchField.centerYAnchor.constraint(equalTo: searchIcon.centerYAnchor),
             searchField.leadingAnchor.constraint(equalTo: searchIcon.trailingAnchor, constant: 10),
-//            searchField.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -30),
+            searchField.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
                    
         ])
     }

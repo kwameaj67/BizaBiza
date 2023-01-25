@@ -23,6 +23,9 @@ class EscrowVC: UIViewController {
         appearance.backgroundColor = Color.blue
         appearance.titleTextAttributes =  [NSAttributedString.Key.font: UIFont(name: Font.bold.rawValue, size: 20)!,NSAttributedString.Key.foregroundColor:UIColor.white]
         
+        navigationController?.navigationBar.tintColor = Color.blue
+        
+        
         navigationController?.navigationBar.standardAppearance = appearance
         // hide nav line
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)

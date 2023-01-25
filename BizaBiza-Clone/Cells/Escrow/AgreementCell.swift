@@ -161,7 +161,6 @@ class AgreementCell: UITableViewCell {
             summaryLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             summaryLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 30),
             summaryLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -30),
-            summaryLabel.heightAnchor.constraint(equalToConstant: 80),
             
             // seller container
             sellerContainer.topAnchor.constraint(equalTo: summaryLabel.bottomAnchor, constant: 15),

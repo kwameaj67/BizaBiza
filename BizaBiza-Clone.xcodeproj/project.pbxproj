@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65CF5C86298195E300F52CFA /* PaymentOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CF5C85298195E300F52CFA /* PaymentOptionsCell.swift */; };
 		981A36BE28DDC16300B66B63 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A36BD28DDC16300B66B63 /* Shop.swift */; };
 		981A36C128DDC32E00B66B63 /* HeaderProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A36C028DDC32E00B66B63 /* HeaderProfileView.swift */; };
 		981A36C328DDC5CD00B66B63 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A36C228DDC5CD00B66B63 /* UIView+Ext.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65CF5C85298195E300F52CFA /* PaymentOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsCell.swift; sourceTree = "<group>"; };
 		981A36BD28DDC16300B66B63 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		981A36C028DDC32E00B66B63 /* HeaderProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProfileView.swift; sourceTree = "<group>"; };
 		981A36C228DDC5CD00B66B63 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				98538D0D28E089B000306216 /* BizaPaymentOptionCell.swift */,
 				98538D0F28E0FC4400306216 /* RecentPaymentCell.swift */,
 				98538D1128E0FFD500306216 /* InstantPaymentCell.swift */,
+				65CF5C85298195E300F52CFA /* PaymentOptionsCell.swift */,
 			);
 			path = Payment;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				981A36CE28DE63A100B66B63 /* WalletButton.swift in Sources */,
 				98DC73B528E1D66000C7D1BD /* ShopHeaderView.swift in Sources */,
 				9886225528D8B8E600736FBA /* SendMoneyVC.swift in Sources */,
+				65CF5C86298195E300F52CFA /* PaymentOptionsCell.swift in Sources */,
 				98DC73B928E1E3C200C7D1BD /* ShopTableViewCell.swift in Sources */,
 				981A36CC28DE5A3500B66B63 /* WalletButtonsCell.swift in Sources */,
 				981A36C328DDC5CD00B66B63 /* UIView+Ext.swift in Sources */,

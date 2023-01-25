@@ -118,7 +118,7 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             return 60
         }
         else if indexPath.row == 3{
-            return 170
+            return 240
         }
         return CGFloat()
     }
