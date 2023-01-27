@@ -21,12 +21,11 @@ class EscrowVC: UIViewController {
     func setupNavigationBar(){
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = Color.blue
-        appearance.titleTextAttributes =  [NSAttributedString.Key.font: UIFont(name: Font.bold.rawValue, size: 20)!,NSAttributedString.Key.foregroundColor:UIColor.white]
-        
-        navigationController?.navigationBar.tintColor = Color.blue
-        
+        appearance.titleTextAttributes =  [NSAttributedString.Key.font: UIFont(name: Font.bold.rawValue, size: 17)!,NSAttributedString.Key.foregroundColor:UIColor.white]
         
         navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        
         // hide nav line
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()

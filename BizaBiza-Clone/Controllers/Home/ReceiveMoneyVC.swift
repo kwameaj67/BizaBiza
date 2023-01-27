@@ -18,20 +18,18 @@ class ReceiveMoneyVC: UIViewController {
         setupContraints()
     }
     func setupNavigationBar(){
-        navigationController?.navigationBar.isHidden = false
+       // navigationController?.navigationBar.isHidden = false
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = Color.blue
-        appearance.titleTextAttributes =  [NSAttributedString.Key.font: UIFont(name: Font.bold.rawValue, size: 20)!,NSAttributedString.Key.foregroundColor:UIColor.white]
+        appearance.titleTextAttributes =  [NSAttributedString.Key.font: UIFont(name: Font.bold.rawValue, size: 17)!,NSAttributedString.Key.foregroundColor:UIColor.white]
         
         navigationController?.navigationBar.standardAppearance = appearance
-        // hide nav line
-        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.navigationBar.isTranslucent = true
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
         
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = false
         tabBarController?.tabBar.isHidden = true
         tabBarController?.tabBar.layer.zPosition = -1
     }
