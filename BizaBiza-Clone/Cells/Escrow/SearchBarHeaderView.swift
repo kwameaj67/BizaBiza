@@ -45,14 +45,14 @@ class SearchBarHeaderView: UITableViewHeaderFooterView {
     }
     func setupConstraints(){
         NSLayoutConstraint.activate([
-            searchIcon.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-            searchIcon.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 30),
+            searchIcon.centerYAnchor.constraint(equalTo: centerYAnchor),
+            searchIcon.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 30),
             searchIcon.widthAnchor.constraint(equalToConstant: 20),
             searchIcon.heightAnchor.constraint(equalToConstant: 20),
             
             searchField.centerYAnchor.constraint(equalTo: searchIcon.centerYAnchor),
             searchField.leadingAnchor.constraint(equalTo: searchIcon.trailingAnchor, constant: 10),
-            searchField.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
+            searchField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
                    
         ])
     }
